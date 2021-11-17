@@ -1,0 +1,50 @@
+.mainHeader header {
+  background-color: #0080af;
+  height: 92px;
+}
+
+.logo {
+  text-align: center;
+  margin: 19px 0 0 50px;
+}
+
+.sideMenu {
+  background-color: #045c7d;
+  width: 340px;
+  height: 100vh;
+}
+
+.sideMenu ul {
+  margin: 0 0 0 0;
+  padding-top: 45px;
+  padding-left: 0;
+}
+
+.sideMenu button {
+  width: 340px;
+  height: 69px;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  color: white;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.sideMenu button:hover {
+  background-color: #0080af;
+  cursor: pointer;
+  transition: all 0.19s;
+}
+
+.sideMenu button:active {
+  background-color: #00c0f0;
+  transition: 0.15s;
+}
+
+.flower {
+  margin: 0 15px 0 20px;
+  float: left;
+}
